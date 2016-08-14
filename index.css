@@ -1,3 +1,57 @@
-h1{
-    color: blue
+/**
+ * 派生选择器
+ */
+p strong{
+	color: #0000FF;
+	font-size: 20px;
+}
+span strong{
+	color: #F4A460;
+	font-size: 20px;
+}
+
+/**
+ * id选择器
+ */
+#li1{
+	color: aqua;
+	font-size: 20px;
+}
+
+/**
+ * 类选择器
+ */
+.divclass{
+	color: darkblue;
+	font-size: 20px;
+}
+
+div{
+	text-align: left;
+}
+h1,h2{
+    color: blue;
+    font-size: 60px;
+}
+p{
+	color: cornflowerblue;
+	font-size: 30px;
+	margin-left: 5px;
+}
+li{
+	margin-left: 20px;
+	line-height: 30px;
+}
+a{
+	text-decoration: none;
+}
+
+/**
+ * 属性选择器
+ */
+[title]{
+	color: sandybrown;
+}
+[title = te]{
+	color: red;
 }
